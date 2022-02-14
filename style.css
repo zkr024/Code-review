@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Comforter', cursive;
+    margin-left: 8px;
+}
+
+.logo__lyrics {
+    font-size: 2.5em;
+    color: rgb(219, 32, 22);
+}
+
+.mainLogo{
+    width: 3.5em;
+    margin: 6px 1px
+}
+
+.search {
+    display: flex;
+}
+
+.searchbar {
+    width: 40em;
+    height: 2.5em;    
+}
+
+.buttons {
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    height: 2.8em;
+    width: 3.5em;
+}
+
+.option {
+    font-size: 1.5em;
+    background-color: transparent;
+    border: none;
+}
+
+.account{
+    font-size: 1.8em;
+    color: rgb(219, 32, 22);
+}
+
+.page{
+    display: flex;
+    margin: 0em 8em;
+    justify-content: space-between;
+}
+
+article {
+    width: 75%;
+}
+
+.menu {
+    display: flex;
+    width: 20em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+video {
+    width: 100%;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.media_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 15px;
+}
+.links{
+    list-style: none;
+    display: flex;
+    overflow-x: auto;
+    height: 60px;
+    align-items: center;
+    margin-bottom: 15px;
+       
+}
+
+.links_buttons{
+    text-decoration: none;
+    display: inline-block;
+    width: 60px;
+    font-size: 17px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    text-align: center;
+    border: 1px solid #666;
+    border-radius: 15%; 
+    color: #fff;  
+}
+
+.minivideos .mininfo {
+    list-style: none;
+}
+
+.vidinfo {
+    display: flex;
+}
+
+.minimages {
+    width: 180px;
+    height: 100px;
+    margin: 3px 8px;
+}
+
+.mintitle {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.mininfo {
+    color: #666;
+    font-size: 14px;
+}
+
+.credits {
+    display: flex;
+    border-top: 2px solid #AAA;
+    border-bottom: 2px solid #AAA;
+    padding: 15px 0;
+}
+.container{
+    border: 1px solid #000;
+    border-radius: 50%;
+    overflow:hidden;
+}
+
+.img_owner {
+    width: 60px;
+}
+
+.credit_info {
+    list-style: none;
+    margin-left: 15px;
+}
+
+.owner {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subscriptions, .data{
+    font-size: 13px;
+    font-weight: 300;
+    color: #666;
+}
+
+.data{
+    font-size: 20px;
+}
+
+.buttons:hover {
+    color: rgb(219, 32, 22);
+}
+
+.account:hover{
+    color: turquoise;
+}
+
+.links_buttons:hover {
+    color: rgb(219, 32, 22);
+    border-color: rgb(219, 32, 22);
+}
+
+.buttons:active{
+    border: 2px solid turquoise;
+    border-radius: 50%;
+    color: turquoise;
+    background-color: #222;
+}
+
+.mintitle:hover {
+    color: rgb(219, 32, 22);
+}
+
+.mintitle:active {
+    color: turquoise;
+}
+
+
+
+
+
+
+
+
+
+
+
+
